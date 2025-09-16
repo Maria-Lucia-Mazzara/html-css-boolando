@@ -1,3 +1,9 @@
+.debug {
+    *{
+        border: 2px dashed;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -15,4 +21,63 @@ a {
 body {
     min-width: 1200px;
 }
+
+:root {
+    --color-header: #ff6900;
+    --color-texheader: #fff7f3;
+    --color-main: #ffffff;
+    --color-texmini: #2b3235;
+    --color-tiletex: #020203;
+    --color-texred: #ff3d55;
+    --color-texfooter: #fdfbea;
+    --color-footer: #1a1a1a;
+}
+
+.d-flex {
+    display: flex;
+}
+
+header{
+    background-color: var(--color-header);
+    padding: 10px;
+}
+
+.homesearch {
+
+    justify-content:space-around;
+}
+
+#logo {
+    width: 10%;
+}
+
+/* fine header*/
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.card {
+    padding-right: 10px;
+    padding-top: 15px;
+    width: 30%;
+}
+
+
+
+#title-prodoct {
+    font-size: 10px;
+    
+}
+
+#prezzo p {
+    color: var(--color-texred);
+}
+
+.card img{
+    width: 100%;
+}
+
 
