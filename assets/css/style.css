@@ -79,5 +79,53 @@ main {
 .card img{
     width: 100%;
 }
+.prezzo {
+    color: var(--color-texred);
+}
 
+.cardguess {
+    padding-right: 10px;
+    padding-top: 15px;
+    width: 30%;
+}
+#title-prodoct {
+    font-size: 10px;
+    
+}
+
+#prezzo p {
+    color: var(--color-texred);
+}
+
+.card img{
+    width: 100%;
+}
+
+
+.prezzo {
+    color: var(--color-texred);
+}
+
+.cardzucchero{
+    padding-right: 10px;
+    padding-top: 15px;
+    width: 30%;
+}
+#title-prodoct {
+    font-size: 10px;
+    
+}
+
+#prezzo p {
+    color: var(--color-texred);
+}
+
+.card img{
+    width: 100%;
+}
+
+
+.prezzo {
+    color: var(--color-texred);
+}
 
