@@ -50,6 +50,10 @@ align-items: center;
 padding: 10px;
 }
 
+#option {
+    color: var(--color-main);
+}
+
 #logo {
     width: 10%;
 }
@@ -109,3 +113,15 @@ main {
     color: var(--color-texred);
 }
 
+.img {
+    position: relative;
+}
+
+.top {
+    display: none;
+    position: absolute;
+}
+
+.img:hover .top {
+    display: block;
+}
