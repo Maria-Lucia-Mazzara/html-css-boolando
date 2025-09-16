@@ -1,5 +1,5 @@
 .debug {
-    *{
+    * {
         border: 2px dashed;
     }
 }
@@ -37,25 +37,30 @@ body {
     display: flex;
 }
 
-header{
+header {
+
     background-color: var(--color-header);
-    
 }
 
 .homesearch {
-width: 80%;
-margin: 0 auto;
-justify-content: space-between;
-align-items: center;
-padding: 10px;
+    width: 80%;
+
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
 
-#option {
+.option {
     color: var(--color-main);
 }
 
-#logo {
+.logo {
     width: 10%;
+}
+
+.icons {
+    color: var(--color-main);
 }
 
 /* fine header*/
@@ -72,20 +77,43 @@ main {
     width: 30%;
 }
 
+.discount-badge {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.sustainability-badge {
+  position: absolute;
+  bottom: 10px;
+  left: 75px; 
+  background-color: green;
+  color: white;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
 
 
 #title-prodoct {
     font-size: 10px;
-    
+
 }
 
 #prezzo p {
     color: var(--color-texred);
 }
 
-.card img{
+.card img {
     width: 100%;
 }
+
 .prezzo {
     color: var(--color-texred);
 }
@@ -95,16 +123,17 @@ main {
     padding-top: 15px;
     width: 30%;
 }
+
 #title-prodoct {
     font-size: 10px;
-    
+
 }
 
 #prezzo p {
     color: var(--color-texred);
 }
 
-.card img{
+.card img {
     width: 100%;
 }
 
