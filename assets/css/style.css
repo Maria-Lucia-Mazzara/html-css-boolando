@@ -39,12 +39,15 @@ body {
 
 header{
     background-color: var(--color-header);
-    padding: 10px;
+    
 }
 
 .homesearch {
-
-    justify-content:space-around;
+width: 80%;
+margin: 0 auto;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
 }
 
 #logo {
