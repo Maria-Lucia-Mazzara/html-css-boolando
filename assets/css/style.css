@@ -44,7 +44,6 @@ header {
 
 .homesearch {
     width: 80%;
-
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
@@ -91,7 +90,7 @@ main {
 .sustainability-badge {
   position: absolute;
   bottom: 10px;
-  left: 75px; 
+  left: 65px; 
   background-color: green;
   color: white;
   padding: 5px 10px;
