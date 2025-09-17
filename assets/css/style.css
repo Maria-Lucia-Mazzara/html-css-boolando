@@ -133,11 +133,8 @@ footer {
     background-color: var(--color-footer);
 }
 
-footer p {
-    color: var(--color-texfooter);
-}
-
 .texfooter {
+    color: var(--color-texfooter);
     width: 80%;
     margin: 0 auto;
     align-items: center;
