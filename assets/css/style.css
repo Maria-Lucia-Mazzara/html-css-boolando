@@ -92,9 +92,10 @@ main {
 .prezzo {
     color: var(--color-texred);
 }
-.discount-badge {
+
+.discount {
   position: absolute;
-  bottom: 10px;
+  bottom: 30px;
   left: 10px;
   background-color: red;
   color: white;
@@ -103,9 +104,9 @@ main {
   border-radius: 5px;
 }
 
-.sustainability-badge {
+.sustainability {
   position: absolute;
-  bottom: 10px;
+  bottom: 30px;
   left: 65px; 
   background-color: green;
   color: white;
