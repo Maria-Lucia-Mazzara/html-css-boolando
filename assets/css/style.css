@@ -48,6 +48,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    padding-right: 140px;
 }
 
 .option {
@@ -126,4 +127,22 @@ main {
 
 .img:hover .top {
     display: block;
+}
+
+footer {
+    background-color: var(--color-footer);
+}
+
+footer p {
+    color: var(--color-texfooter);
+}
+
+.texfooter {
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    padding-right: 150px;
+
 }
