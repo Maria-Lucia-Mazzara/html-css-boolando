@@ -76,6 +76,22 @@ main {
     width: 30%;
 }
 
+#title-prodoct {
+    font-size: 10px;
+
+}
+
+#prezzo p {
+    color: var(--color-texred);
+}
+
+.card img {
+    width: 100%;
+}
+
+.prezzo {
+    color: var(--color-texred);
+}
 .discount-badge {
   position: absolute;
   bottom: 10px;
@@ -96,49 +112,6 @@ main {
   padding: 5px 10px;
   font-size: 14px;
   border-radius: 5px;
-}
-
-
-
-#title-prodoct {
-    font-size: 10px;
-
-}
-
-#prezzo p {
-    color: var(--color-texred);
-}
-
-.card img {
-    width: 100%;
-}
-
-.prezzo {
-    color: var(--color-texred);
-}
-
-.cardguess {
-    padding-right: 10px;
-    padding-top: 15px;
-    width: 30%;
-}
-
-#title-prodoct {
-    font-size: 10px;
-
-}
-
-#prezzo p {
-    color: var(--color-texred);
-}
-
-.card img {
-    width: 100%;
-}
-
-
-.prezzo {
-    color: var(--color-texred);
 }
 
 .img {
